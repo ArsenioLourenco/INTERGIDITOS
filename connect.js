@@ -11,7 +11,7 @@ mysqlConn.connect((err)=>{
     if(err){
         console.log('Connection Failed');
     }else{
-        console.log('DB Connected');
+        console.log('MySQL DB Connected');
     }
 });
 
